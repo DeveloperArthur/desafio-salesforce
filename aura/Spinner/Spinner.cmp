@@ -1,0 +1,12 @@
+<aura:component>
+    <aura:attribute name="carregamento" type="Boolean" default="true" />
+    
+    <aura:method name="mostraCarregamento" />
+    <aura:method name="escondeCarregamento" />
+
+    <aura:if isTrue="{! v.carregamento }">
+        <aura:set attribute="else">
+            <lightning:spinner alternativeText="Carregando" />
+        </aura:set>
+    </aura:if>
+</aura:component>

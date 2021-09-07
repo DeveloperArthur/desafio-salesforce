@@ -1,0 +1,22 @@
+<aura:component controller="ContaController" implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="idDaConta" type="String" />
+    <aura:attribute name="nomeDaConta" type="String"/>
+    <aura:attribute name="idDoPais" type="String"/>
+    <aura:attribute name="email" type="String"/>
+    
+    <div>
+        <h1 class="slds-text-heading_medium border-bottom-filtro">Iremos te enviar um email</h1>
+        <br></br>
+
+        <lightning:input 
+            value="{!v.email}" 
+            name="email" 
+            label="Digite o Email de Destino" />
+
+        <ui:inputCheckbox aura:id="checkbox" label="Autorizo envio do email"/>
+    </div>
+    <br></br>
+    <lightning:button variant="brand" label="Salvar" onclick="{!c.salvaConta}" />
+
+    <c:Spinner aura:id="spinner" />
+</aura:component>
