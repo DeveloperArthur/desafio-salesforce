@@ -1,7 +1,7 @@
 # Solução
 
 ## Metodologia utilizada
-Para o processo de desenvolvimento desta solução foi utilizado [Kanban com a ferramenta Trello](https://trello.com/b/vCGO1v8P/estudo-salesforce) e a essência do eXtreme programming:
+Para o processo de desenvolvimento desta solução foi utilizado Kanban com a ferramenta Trello e a essência do eXtreme programming:
 
 - Foco em testes
 - Foco em revisão de código
