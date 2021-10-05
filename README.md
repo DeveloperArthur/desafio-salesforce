@@ -16,7 +16,7 @@ Para o processo de desenvolvimento desta solução foi utilizado Kanban com a fe
 
 - Git para versionador de código.
 
-- Workbench para gerar e carregar o [package.xml da solução](https://drive.google.com/file/d/1W_4nJ2AsktNBG0o2V2j-gQQSDbCwyADi/view?usp=sharing).
+- Workbench para gerar e carregar o package.xml da solução.
 
 
 ## Endpoint para upsert Conta
